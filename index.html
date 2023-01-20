@@ -472,18 +472,34 @@
 
 
         <label for="user-coment" class="modal-coment">Коментар</label>
-        <textarea name="user-text" id="user-coment" class="input-message" placeholder="Введіть текст"></textarea>
+        <textarea name="user-text" 
+        id="user-coment" 
+        class="input-message" 
+        placeholder="Введіть текст"></textarea>
+
+
 
         <div class="modal-input-checkbox">
-        <input type="checkbox" id="privacy" name="privacy" value="true" class="modal-check">
+        <input 
+        type="checkbox" 
+        id="privacy" 
+        name="privacy" 
+        value="true" 
+        class="modal-check visually-hidden">
         <label for="privacy" class="checkbox-text">
-        
-            <svg class="modal-icon" width="16" height="15">
-                <use href="./symbol-defs.svg#icon-Vector"></use>
-            </svg>
-        
-            Погоджуюся з розсилкою та приймаю <a class="checkbox-modal-link" href="">Умови договору</a></label>
+        <span>
+        <svg class="modal-icon-checkbox" width="16" height="15">
+    <use href="./symbol-defs.svg#icon-Vector"></use>
+        </svg>
+        </span>
+         Погоджуюся з розсилкою та приймаю <a class="checkbox-modal-link" href="">Умови договору</a></label>
         </div>
+
+
+
+
+
+
 
 
 <button class="modal__btn" type="submit">Відправити</button>
