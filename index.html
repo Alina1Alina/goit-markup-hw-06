@@ -417,23 +417,15 @@
 
         <div class="footer-form">
             <b class="form-title">Підпишіться на розсилку</b>
-            <div class="footer-for-button">
+            
 <form class="form">
-    <label class="form-label">
+    
         <input class="form-input" type="email" name="email" placeholder="E-mail"></label>
-</form>
-<button class="button-form" type="submit">
-    <span class="button-form-text">
-        Підписатися
+        <button class="button-form" type="submit"> Підписатися
         <svg class="button-icon-form" width="24" height="24">
-    <use href="./symbol-defs.svg#icon-icon-send"></use>
-</svg>
-
-</span>
-
-</button>
-
-</div>
+        <use href="./symbol-defs.svg#icon-icon-send"></use>
+        </svg></button>
+</form>
 
 </div>
 
@@ -443,11 +435,12 @@
 <!-- MODAL -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <form class="modal-form">
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+        
         <label class="modal-form-label">
             <span class="modal-form-text">Ім'я</span>
-<input class="modal-form-input" type="name" name="name" placeholder="">
+<input class="modal-form-input" type="text" name="name" placeholder="">
 <svg class="modal-icon" width="18" height="18">
     <use href="./symbol-defs.svg#icon-person-black-18dp-1"></use>
 </svg>
@@ -479,21 +472,20 @@
 
 
 
-        <div class="modal-input-checkbox">
-        <input 
-        type="checkbox" 
-        id="privacy" 
-        name="privacy" 
-        value="true" 
-        class="modal-check visually-hidden">
+        
+    
         <label for="privacy" class="checkbox-text">
+        <input type="checkbox" id="privacy" name="privacy" value="true" class="modal-check visually-hidden">
         <span class="checkbox-icon">
         <svg class="modal-icon-checkbox" width="16" height="15">
     <use href="./symbol-defs.svg#icon-Vector"></use>
-        </svg>
+        </svg></span>
+
+        <span class="checkbox">
+            Погоджуюся з розсилкою та приймаю <a class="checkbox-modal-link" href="">Умови договору</a>
         </span>
-         Погоджуюся з розсилкою та приймаю <a class="checkbox-modal-link" href="">Умови договору</a></label>
-        </div>
+        </label>
+        
 
 
 
